@@ -16,7 +16,7 @@ body {
     color: black;
     background-color: #edbcc8;
   }
-  &.btn:disabled {
+  &:disabled {
     opacity: 0.5;
   }
 }
