@@ -3,3 +3,27 @@ body {
     color: #c69;
   }
 }
+
+
+%btn{
+padding: 2px 10px;
+border-radius: 2px;
+border-style: solid;
+
+&:disabled{
+opacity: 0.5
+}
+}
+
+.btn-primary{
+  @extend %btn;
+  background: #c46;
+  color: white;
+}
+
+.btn-secondary{
+  @extend %btn;
+  color: black;
+  background: rgb(237,188,200)
+}
+
